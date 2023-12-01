@@ -67,3 +67,13 @@
 .container-form .btn-enviar:hover{
     background: #ffa7a7;
 }
+@media screen and (max-width: 850px) {
+    .container-form {
+        grid-template-columns: 1fr; /* Switch to a single column layout */
+    }
+
+    .container-form form textarea {
+        max-width: 100%; /* Adjusted max-width for smaller screens */
+        min-width: 100%; /* Adjusted min-width for smaller screens */
+    }
+}
