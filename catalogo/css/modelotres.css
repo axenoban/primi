@@ -213,7 +213,7 @@ main {
 .hero-section {
   background-image: url('../../img/banner/modelotres.png'), linear-gradient(#ffd1d1, #FFFFFF);
   background-repeat: no-repeat;
-  background-size: 108% 76%;
+  background-size: 100% 76%;
   background-position: top;
   padding-top: 300px;
   margin-top: -10px;

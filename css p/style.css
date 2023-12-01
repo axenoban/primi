@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Poppins , 'Arial' , 'sans-serif';
+    
     height: 100vh;
     background: linear-gradient(270deg, #ffd1d1 30%, #ffffff 30%);
 
@@ -65,7 +65,7 @@ container {
   
   }
   .navbar a {
-    font-family: 'lato'; /* Cambia 'Montserrat' por la fuente de tu elección */
+    font-family: 'poppins'; /* Cambia 'Montserrat' por la fuente de tu elección */
     color: rgb(0, 0, 0);
   }
 nav {
@@ -184,9 +184,24 @@ nav ul li a:hover {
 
         display: none;
     }
+ 
+    nav ul li a:hover::after {
+      width: 50%;
+  }
+  .no-hover-effect:hover:after {
+    width: 0;
+    background: none;
+    transition: none;
+    
+  }
+    
+  .dos{
+    padding-top: 120px;
+    font-family: 'Open Sans', sans-serif; 
+    }
 
 }
-.subtitulo{
+.subtitul{
     margin-top: 150px;
     align-items: flex-start;
     font-size: 20px;
@@ -199,15 +214,15 @@ nav ul li a:hover {
  
 }
 .imguno {
-    margin-top: -100px;
+   
     width: 100%; /* Asegura que la imagen se ajuste al ancho de la columna */
     max-height: 100%; /* Limita la altura máxima para evitar desbordamientos */
     object-fit: cover; /* Relleno para cubrir toda la columna */
     object-position: center bottom; /* Posición de la imagen en el centro inferior de la columna */
-    margin-left: 25px;
+ 
   }
  .dos{
-  margin-top: -100px;
+  padding-top: 100px;
   font-family: 'Open Sans', sans-serif; 
   }
  
@@ -262,6 +277,27 @@ a{
     height: 500px;
    
    } 
+
+
+
+   .botonn {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: #ffd1d1;
+    border: 1px solid #ffd1d1;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+  }
+  
+  .botonn:hover {
+    background-color: #000000;
+    color: #ffd1d1;
+  }
     
     
     
@@ -369,7 +405,7 @@ a{
     
     .parrafo{
       margin-left: 20px;
-      margin-top: 100px;
+      margin-top: 200px;
       margin-bottom: 100px;
     }
 

@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+   
 }
 .container-form{
     width: 100%;
@@ -17,11 +17,13 @@
 .container-form h2{
     margin-bottom: 15px;
     font-size: 35px
+
 }
 .container-form p{
     font-size: 17px;
     line-height: 1.6;
     margin-bottom: 30px;
+    text-align: left;
 }
 .container-form a{
     font-size: 17px;
