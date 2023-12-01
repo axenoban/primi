@@ -1,0 +1,47 @@
+.info{
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    
+}
+.borde{
+    
+    background-color: #ffb1b1;
+    border-radius: 25px;
+}
+.bordedos{
+    
+    background-color: #f5e2e2;
+    border-radius: 25px;
+}.bordetres{
+    
+    background-color: #e1d1d1;
+    border-radius: 25px;
+}
+.muestra{
+    
+    height: 140px;
+    width: 140px;
+    border-radius: 100px;
+
+}
+
+.carousel {
+    margin-top: 20px;
+}
+.item .thumb {
+	width: 25%;
+	cursor: pointer;
+	float: left;
+}
+.item .thumb img {
+	width: 100%;
+	margin: 2px;
+}
+.item img {
+	width: 100%;	
+}
+
+.margen{
+    padding: 10px;
+    
+}

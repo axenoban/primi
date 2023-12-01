@@ -1,0 +1,25 @@
+ /* Lato */
+ @font-face {
+    font-family: 'Lato';
+    src: url('https://fonts.gstatic.com/s/lato/v21/S6uyw4BMUTPHjx4wWw.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+
+.navbar-nav{
+   justify-content: start;
+   justify-items: start;
+   align-items: center;
+   font-family: 'lato',sans-serif;
+}
+.navbar-collapse {
+justify-content: center;
+font-family: 'lato',sans-serif;
+  }
+
+.catalogo{
+    color: black;
+    font-family: 'lato',sans-serif;
+    justify-items: center;
+}
